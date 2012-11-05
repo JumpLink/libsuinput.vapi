@@ -1,4 +1,11 @@
-// valac --vapidir=./ libsuinput.vapi --pkg linux --pkg posix -X -lsuinput example/mouse.vala
+/*
+ * This example is based on https://github.com/tuomasjjrasanen/libsuinput/blob/master/examples/mouse.c
+ *
+ * Autor: Pascal Garber <pascal.garber@gmail.com>
+ * Compile: valac --vapidir=./ libsuinput.vapi --pkg linux --pkg posix -X -lsuinput example/mouse.vala -o mouse.o
+ */
+
+ 
 using SimpleUserspaceInput;
 using Linux.UserspaceInput;
 using Linux.Input;

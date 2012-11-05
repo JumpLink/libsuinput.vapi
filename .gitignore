@@ -1,1 +1,3 @@
 core
+mouse.o
+*.c

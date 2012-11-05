@@ -3637,7 +3637,6 @@ namespace Linux {
         public const int EV_UINPUT;
         public const int UI_FF_UPLOAD;
         public const int UI_FF_ERASE;
-        public const uint UINPUT_MAX_NAME_SIZE;
 
         public const int UI_DEV_CREATE;
         public const int UI_DEV_DESTROY;
